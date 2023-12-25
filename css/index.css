@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'anaglyph' sans-serif;
+}
+
+body {
+    background: darkslategray;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 30px;
+    background: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 30px;
+    color: #403df2;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.navbar a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #403df2;
+    font-weight: 550;
+    margin-left: 35px;
+    transition: 2s;
+}
+
+.navbar a:hover,
+.navbar a:active {
+    color: white;
+
+}
