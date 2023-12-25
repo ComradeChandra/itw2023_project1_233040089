@@ -17,7 +17,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: transparent;
+    background: #03abff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,13 +58,13 @@ body {
 
 .navbar a:hover,
 .navbar a.active {
-    color: #403df2;
+    color: #ededed;
 
 }
 
 .home {
     height: 100vh;
-    background: url('../img/heroreal.jpg') no-repeat;
+    background: url('../img/hero1.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -139,7 +139,7 @@ body {
 }
 
 .btn-box a:hover {
-    color: #403df2;
+    color: #ededed;
 
 }
 
@@ -225,6 +225,150 @@ body {
 .home-sci a:hover:before {
     width: 100%;
 
+}
+
+.profile,
+.education,
+.hobby,
+.contact {
+    padding: 10rem 7% 1.4rem;
+}
+
+.profile h1,
+.education h1,
+.hobby h1,
+.contact h1 {
+    text-align: center;
+    color: #403df2;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+}
+
+.profile .row {
+    color: #081b29;
+    display: flex;
+
+}
+
+.profile .row .profile-img {
+    flex: 1 1 45rem;
+
+}
+
+.profile .row .profile-img img {
+    width: 100%;
+}
+
+.profile .row .content {
+    flex: 1 1 35rem;
+    padding: 0 1rem;
+}
+
+.profile .row .content h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.profile .row .content p {
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
+}
+
+
+/* Education Section */
+.education h1,
+.contact h1 {
+    margin-bottom: 1rem;
+    color: #403df2;
+    text-align: center;
+
+}
+
+.education h3 {
+    color: #081b29;
+    padding-left: 2rem;
+}
+
+.education p,
+.contact p {
+    text-align: center;
+    max-width: 30rem;
+    margin: auto;
+    font-weight: 100;
+    line-height: 1.6;
+    color: #081b29;
+}
+
+.education .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.education .row .education-card {
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.education .row .education-card img {
+    border-radius: 75%;
+    width: 50%;
+}
+
+.education .row .education-card .education-card-title {
+    margin: 1rem auto 0.5rem;
+}
+
+/* Hobby Section */
+.hobby h1 {
+    margin-bottom: 1rem;
+    color: #403df2;
+    text-align: center;
+
+}
+
+.hobby h3 {
+    color: #081b29;
+    padding-left: 2rem;
+}
+
+.hobby p {
+    text-align: center;
+    max-width: 30rem;
+    margin: auto;
+    font-weight: 100;
+    line-height: 1.6;
+    color: #081b29;
+}
+
+.hobby .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.hobby .row .hobby-card {
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.hobby .row .hobby-card img {
+    border-radius: 75%;
+    width: 50%;
+
+}
+
+.hobby .row .hobby-card .hobby-card-name {
+    margin: 1rem auto 0.5rem;
+}
+
+
+/* Contact Section */
+.contact .row {
+    display: flex;
+    margin-top: 2rem;
 }
 
 /* KEYFRAMES ANIMATION*/
