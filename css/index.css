@@ -369,7 +369,10 @@ body {
 .contact .row {
     display: flex;
     margin-top: 2rem;
+    background-color: #97b7c7;
+    flex-wrap: wrap;
 }
+
 
 /* KEYFRAMES ANIMATION*/
 @keyframes showRight {
