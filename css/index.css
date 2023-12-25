@@ -9,6 +9,8 @@ body {
     color: #ededed;
 }
 
+/*nama aku*/
+
 .header {
     position: fixed;
     top: 0;
@@ -22,17 +24,33 @@ body {
     z-index: 100;
 }
 
+/*logo nama*/
+
 .logo {
+    position: relative;
     font-size: 25px;
-    color: #ededed;
+    color: darkslategray;
     text-decoration: none;
     font-weight: 800;
+}
+
+
+.logo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    animation: showRight 1s ease forwards;
+    animation-delay: .4s;
 }
 
 .navbar a {
     font-size: 18px;
     text-decoration: none;
-    color: #ededed;
+    color: darkslategray;
     font-weight: 600;
     margin-left: 35px;
     transition: 2s;
@@ -46,9 +64,9 @@ body {
 
 .home {
     height: 100vh;
-    background: url(/img/hero.png) no-repeat;
+    background: url('../img/heroreal.jpg') no-repeat;
     background-size: cover;
-    background-position: right;
+    background-position: center;
     display: flex;
     align-items: center;
     padding: 0 10%;
@@ -64,6 +82,18 @@ body {
     font-weight: 700;
     line-height: 1.2;
 
+}
+
+.home-content h1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1s;
 }
 
 .home-content h3 {
@@ -195,4 +225,11 @@ body {
 .home-sci a:hover:before {
     width: 100%;
 
+}
+
+/* KEYFRAMES ANIMATION*/
+@keyframes showRight {
+    100% {
+        width: 0;
+    }
 }
