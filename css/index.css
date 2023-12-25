@@ -6,7 +6,6 @@
 }
 
 body {
-    background: #383737;
     color: #ededed;
 }
 
@@ -47,7 +46,9 @@ body {
 
 .home {
     height: 100vh;
-    background-image: url(/img/hero.png);
+    background: url(/img/hero.png) no-repeat;
+    background-size: cover;
+    background-position: right;
     display: flex;
     align-items: center;
     padding: 0 10%;
