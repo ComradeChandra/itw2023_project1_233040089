@@ -373,6 +373,18 @@ body {
     flex-wrap: wrap;
 }
 
+.contact .row form .input-group input {
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.7rem;
+    background: none;
+}
+
+.contact .row form {
+    flex: 1 1 45rem;
+    padding: 5rem 2rem;
+    text-align: center;
+}
 
 /* KEYFRAMES ANIMATION*/
 @keyframes showRight {
